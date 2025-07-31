@@ -1,6 +1,6 @@
 # North Pole
 
-North Pole is a 120mm Kapton tape bed polar printer. I have always been very interested in unique motion systems, and a cantiliver polar printer is a super fun option. Polar printers come with downsides, like issues with printing at the center of the bed, as well as printing square parts, as they sometimes get warped. However, I think that it is a super fun option for motion systems. This printer uses a super beefy frame made out of 2040 and 4040 extrusions from MISUMI, as well as an aluminum plate for extra rigidity and solid mounting for the bed and motors. The toolhead is a very light system using a tz6 hotend and a bowden HGX lite, a combonation that should be able to perform pretty well while keeping weight away from the cantilever. The electronics for this printer will be external, as there is very limited space in the electronics bay and I dont want to make it much bigger. 
+North Pole is a 120mm Kapton tape bed polar printer. I have always been very interested in unique motion systems, and a cantiliver polar printer is a super fun option. Polar printers come with downsides, like issues with printing at the center of the bed, as well as printing square parts, as they sometimes get warped. However, I think that it is a super fun option for motion systems. This printer uses a super beefy frame made out of 2040 and 4040 extrusions from MISUMI, as well as an aluminum plate for extra rigidity and solid mounting for the bed and motors. The toolhead is a very light system using a tz6 hotend and a bowden HGX lite, a combonation that should be able to perform pretty well while keeping weight away from the cantilever. The electronics for this printer will be external, except for the mainboard, as there is very limited space in the electronics bay and I dont want to make it much bigger. 
 
 GOALS:
 
@@ -15,6 +15,11 @@ rigid frame
 
 compact + portable
 
+
+
+CAD: [https://cad.onshape.com/documents/8edeb01ab6b0e2192901165c/w/d814f36a7d6152b32be36afc/e/db78d6bfa419989c16b0d558 
+](url)
+
 <img width="639" height="745" alt="image" src="https://github.com/user-attachments/assets/20b6b7a1-4984-4bed-9f7b-9d0c09feb255" />
 
 Main Image
@@ -24,10 +29,12 @@ Main Image
 Rho Motor Mounting
 
 <img width="660" height="545" alt="image" src="https://github.com/user-attachments/assets/b4b2bc31-e98d-48e6-8942-788333c7c4ff" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/d362477a-acf6-42e5-b0e7-58c481a09d96" />
 
 Bed System
 
 <img width="390" height="446" alt="image" src="https://github.com/user-attachments/assets/09b6044a-1959-4a07-8153-d99379a440d6" />
+
 
 Toolhead System
 
