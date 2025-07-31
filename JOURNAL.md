@@ -5,7 +5,7 @@ description: "1Mon's Tiny Polar Printer"
 created_at: "2025-07-26"
 ---
 
-# Total Time Spent: 18h
+# Total Time Spent: 21h
 
 # Frame Design
 
@@ -88,5 +88,13 @@ Here you can see the extruder, mounted sideways for compactness. There will be a
 <img width="544" height="686" alt="image" src="https://github.com/user-attachments/assets/ac53f05c-ccfd-4b0c-88cd-6281ae36cde5" />
 
 And here is the X idler. Its pretty simple and compact as I wanted to keep the weight down on the far end of the cantilever. 
+
+**Time Spent: 3h**
+
+# Final Touches
+
+This entry is going to be pretty short because there isnt much I can actually write about. I made the BOM, and it comes out to a little more than 350 dollars. Im planning on covering all the extra costs (~30 dollars). I added a limit switch for the Z axis, as homing it sensorless wouldnt be very accurate. I plan to use sensorless for the Rho though. I also documented the whole printer, writing a readme and putting some polish on some weird parts. Figuring out how MISUMI labels their frames is very annoying, so I spent a long time on that. I think I got everything correct. 
+
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/9dbde34e-c403-4158-ab35-31e0ac426c16" />
 
 **Time Spent: 3h**
