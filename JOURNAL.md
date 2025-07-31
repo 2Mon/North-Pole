@@ -5,7 +5,7 @@ description: "1Mon's Tiny Polar Printer"
 created_at: "2025-07-26"
 ---
 
-# Total Time Spent: 15h
+# Total Time Spent: 18h
 
 # Frame Design
 
@@ -77,4 +77,16 @@ Here is the current state of the toolhead design. Im not super happy with how it
 
 **Time Spent: 4h**
 
+# Final Motion Components
 
+In this session I added the X Idler and the extruder to the printer. For the idler, I mounted it directly to the rail, which helps align it to the belt path. I am using a 20t idler for this, as it matches the pulley on the other side. This is important because I want equal force pulling on each side of the toolhead. For the extruder, I chose an HGX Lite. This is a clone of the very popular LGX lite, using big gears for high grip and an aluminum body for rigidity. I mounted this to the X/Z carriage, as letting it move with the toolhead means less strain on the bowden. 
+
+<img width="423" height="450" alt="image" src="https://github.com/user-attachments/assets/74298afa-c2bc-4f1b-b94a-9228c7f9c2b5" />
+
+Here you can see the extruder, mounted sideways for compactness. There will be a bowden tube going from it to the toolhead. 
+
+<img width="544" height="686" alt="image" src="https://github.com/user-attachments/assets/ac53f05c-ccfd-4b0c-88cd-6281ae36cde5" />
+
+And here is the X idler. Its pretty simple and compact as I wanted to keep the weight down on the far end of the cantilever. 
+
+**Time Spent: 3h**
