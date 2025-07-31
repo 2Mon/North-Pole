@@ -5,7 +5,7 @@ description: "1Mon's Tiny Polar Printer"
 created_at: "2025-07-26"
 ---
 
-# Total Time Spent: 11h
+# Total Time Spent: 15h
 
 # Frame Design
 
@@ -60,6 +60,20 @@ Here you can see the layout under the printer. The motor has 10mm of movement on
 <img width="982" height="369" alt="image" src="https://github.com/user-attachments/assets/dd3ccd71-0ac0-4cea-b049-e6577f6237de" />
 
 And here you can see how the belt will connect. The large gray pulley connected to the bed is 80t, and the smaller one connected to the motor is 20. 
+
+**Time Spent: 4h**
+
+# Toolhead Design
+
+I spent way too much time working on this toolhead. It was the hardest part of this design by far. It uses a TZ V6 hotend, which is like a bambu heater connected to a v6 heatsink, because it is cheap and readily accessible on Aliexpress or Amazon. It uses a 2510 fan for hotend cooling, as well as a 4010 blower fan for part cooling. It is mounted on a mgn9h rail, as a balance between rigidity and size. I am running a bowden system for this toolhead, as the cantilever design means that having a heavy toolhead will lead to slop and issues. My belt mounting system is fairly simple, just a slot on the back of the toolhead which allows both sides of the belt to connect and move the toolhead around. I dont have much experience designing toolheads, so this is just the way I am thinking through it. 
+
+<img width="861" height="637" alt="image" src="https://github.com/user-attachments/assets/67760dfb-5dcb-4615-9df9-0522458386bb" />
+
+The main part of the toolhead is a single print. I intend to print this out of PA6 CF, for rigidity and temp resistance. 
+
+<img width="847" height="610" alt="image" src="https://github.com/user-attachments/assets/82499afb-8a59-4479-97b7-ef3eb90a1e64" />
+
+Here is the current state of the toolhead design. Im not super happy with how it looks currently, but Im sure it will change over the next could sessions. The good thing is that it is very simple and light, which means that performance should be fairly good.
 
 **Time Spent: 4h**
 
