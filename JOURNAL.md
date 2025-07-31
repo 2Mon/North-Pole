@@ -5,7 +5,7 @@ description: "1Mon's Tiny Polar Printer"
 created_at: "2025-07-26"
 ---
 
-# Total Time Spent: 7h
+# Total Time Spent: 11h
 
 # Frame Design
 
@@ -44,3 +44,23 @@ Here you can see the first prototype of the z axis. Im pretty happy with the mot
 And here is the dummy bed. I might end up just doing kapton tape so I dont need to worry about running high current through a slipring. 
 
 **Time Spent: 2h**
+
+# Bad CAD!!
+
+I woke up and realized how bad the x (rho) axis motor mount is so I spent some time making it beefier I make it more of a solid block instead of plates, and aligned the pulley better to work with the toolhead. Its much beefier now, and should be able to hold up better to the forces from the motor. I still need to reinforce the X (rho) linear rod, as the current mounting solution is pretty sketchy and probably wont be very rigid. I had to move some stuff around to allow for clearance for the leadscrew and belts, but once I got that sorted it was fairly easy to add the beefy part. This mounting solution also lets me use some very large m3 bolts to sandwich all of the components together. 
+
+<img width="855" height="479" alt="image" src="https://github.com/user-attachments/assets/fcae2c07-6cc9-4420-97b8-dfc7eca486cb" />
+
+I also realized that it is going to be very difficult to tension the bed pulley well, so I added a slider to let the motor and pulley move further away from the bed, tensioning the belt loop. I also added the bed pulley, which is a commonly available 80t gt2 pulley. Its press fit into a large bed spinner, which will end up being the print surface. I plan to use kapton tape to get parts to stick to the bed, as it is cheap and holds onto PLA fairly well. This greatly simplifies wiring this printer, as I dont need to worry about any sliprings or expensive components for the heated bed. I was inspired by Kappy by rolohaun for this, as it is a primary feature the low cost bedslinger. 
+
+<img width="514" height="374" alt="image" src="https://github.com/user-attachments/assets/32eec2a2-932f-411b-8627-babfe0069f3d" />
+
+Here you can see the layout under the printer. The motor has 10mm of movement on its tensioner, which should be plenty for what I am trying to do. 
+
+<img width="982" height="369" alt="image" src="https://github.com/user-attachments/assets/dd3ccd71-0ac0-4cea-b049-e6577f6237de" />
+
+And here you can see how the belt will connect. The large gray pulley connected to the bed is 80t, and the smaller one connected to the motor is 20. 
+
+**Time Spent: 4h**
+
+
