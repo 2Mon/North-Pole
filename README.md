@@ -31,7 +31,7 @@ Toolhead System
 | mgn12h 150               | 17.11  | 1        | 17.11        | [Link](https://www.aliexpress.us/item/2251832643511407.html?)                                                          |
 | mgn9h 150                | 16.65  | 1        | 16.65        | [Link](https://www.aliexpress.us/item/2251832586981749.html?)                                                          |
 | 2510 fan                 | 7.62   | 1        | 7.62         | [Link](https://www.aliexpress.us/item/3256808076821944.html?)                                                          |
-| 4010 blower fan         | 13.84  | 1        | 13.84        | [Link](https://www.aliexpress.us/item/3256801655319095.html?)                                                          |
+| 4010 blower fan          | 13.84  | 1        | 13.84        | [Link](https://www.aliexpress.us/item/3256801655319095.html?)                                                          |
 | v0 leadscrew motor       | 24.80  | 1        | 24.80        | [Link](https://www.aliexpress.us/item/3256805672589159.html?)                                                          |
 | 6812 bearing             | 9.58   | 1        | 9.58         | [Link](https://www.aliexpress.us/item/3256807233759178.html?)                                                          |
 | hgx lite                 | 20.54  | 1        | 20.54        | [Link](https://www.aliexpress.us/item/3256806387907092.html?)                                                          |
