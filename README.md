@@ -1,6 +1,19 @@
 # North Pole
 
-North Pole is a 120mm Kapton tape bed polar printer. I have always been very interested in unique motion systems, and a cantiliver polar printer is a super fun option. Polar printers come with downsides, like issues with printing at the center of the bed, as well as printing square parts, as they sometimes get warped. However, I think that it is a super fun option for motion systems. This printer uses a super beefy frame made out of 2040 and 4040 extrusions from MISUMI, as well as an aluminum plate for extra rigidity and solid mounting for the bed and motors. The toolhead is a very light system using a tz6 hotend and a bowden HGX lite, a combonation that should be able to perform pretty well while keeping weight away from the cantilever.
+North Pole is a 120mm Kapton tape bed polar printer. I have always been very interested in unique motion systems, and a cantiliver polar printer is a super fun option. Polar printers come with downsides, like issues with printing at the center of the bed, as well as printing square parts, as they sometimes get warped. However, I think that it is a super fun option for motion systems. This printer uses a super beefy frame made out of 2040 and 4040 extrusions from MISUMI, as well as an aluminum plate for extra rigidity and solid mounting for the bed and motors. The toolhead is a very light system using a tz6 hotend and a bowden HGX lite, a combonation that should be able to perform pretty well while keeping weight away from the cantilever. The electronics for this printer will be external, as there is very limited space in the electronics bay and I dont want to make it much bigger. 
+
+GOALS:
+
+
+Polar printer (spinning bed)
+
+Light weight toolhead
+
+high gear ratio on bed (precise)
+
+rigid frame
+
+compact + portable
 
 <img width="639" height="745" alt="image" src="https://github.com/user-attachments/assets/20b6b7a1-4984-4bed-9f7b-9d0c09feb255" />
 
