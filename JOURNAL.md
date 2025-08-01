@@ -7,7 +7,7 @@ created_at: "2025-07-26"
 
 # Total Time Spent: 21h
 
-# Frame Design
+# Frame Design 7/26/25
 
 In this first session I began desigining the frame for the polar printer. Its currently very small (230x180) and is made out of 2040 and 4040 extrusions, making it very rigid and stable. Im planning to mount an aluminum plate to the top of it, both for mounting the bed and its motor, but also to contribute to the rigidity. I plan to use a slipring in the bed so its able to rotate forever, without worrying about wires. I need this for the bed heater and thermistor. The frame is built with a rectangle of 2040, with one side as 4040 to allow the z axis extrusion to mount properly. Im also going to be mounting the Z motor to this extrusion, so its very important for it to be rigid. I played around with the size of components a lot to make it a reasonable size for the 120mm bed, but this size I've landed on seems like a really good balance between compactness and having enough space for electronics and other parts. 
 
@@ -17,7 +17,7 @@ Here you can see the frame of the printer.
 
 **Time Spent: 3h**
 
-# Bed system
+# Bed system 7/27/25
 
 During this session I began desigining the bed system. This includes the mounting on a bearing, and the belting to connect it to the motor. So far I have just added the bearing, which is clamped between two printed parts. M5 bolts will go through the part, the aluminum plate, and the other clamp on the bottom. This should keep the bearing very well constrained and stable, which should lead to the actual bed being very stable. I still need to figure out the actual bed mounting, as I currently dont have anything. I also added the aluminum plate in this session, which mounts the bearing as well as the motor and bearing. 
 
@@ -31,7 +31,7 @@ Cross section of the bearing mounted
 
 **Time Spent: 2h**
 
-# dummy bed + z axis
+# dummy bed + z axis 7/29/25
 
 In this session I designed a dummy bed for sizing purposes and for testing the belt system. The bed is super bare bones (literally just two cylendars), but it should be a decent representation of what I need to make next. In this session I mainly worked on the Z axis, which is basically a 150mm leadscrew stepper motor connected to a mgn12 carriage. I still need to make it more rigid, but it should be a decent option. The Z carriage is also where the X axis (or realy Rho) rail will be mounted, so it needs to be super sturdy. I may end up adding a second rail to give it more rigidity, but since its such a small design its probably not needed. 
 
@@ -45,7 +45,7 @@ And here is the dummy bed. I might end up just doing kapton tape so I dont need 
 
 **Time Spent: 2h**
 
-# Bad CAD!!
+# Bad CAD!! 7/30/25
 
 I woke up and realized how bad the x (rho) axis motor mount is so I spent some time making it beefier I make it more of a solid block instead of plates, and aligned the pulley better to work with the toolhead. Its much beefier now, and should be able to hold up better to the forces from the motor. I still need to reinforce the X (rho) linear rod, as the current mounting solution is pretty sketchy and probably wont be very rigid. I had to move some stuff around to allow for clearance for the leadscrew and belts, but once I got that sorted it was fairly easy to add the beefy part. This mounting solution also lets me use some very large m3 bolts to sandwich all of the components together. 
 
@@ -63,7 +63,7 @@ And here you can see how the belt will connect. The large gray pulley connected 
 
 **Time Spent: 4h**
 
-# Toolhead Design
+# Toolhead Design 7/30/25
 
 I spent way too much time working on this toolhead. It was the hardest part of this design by far. It uses a TZ V6 hotend, which is like a bambu heater connected to a v6 heatsink, because it is cheap and readily accessible on Aliexpress or Amazon. It uses a 2510 fan for hotend cooling, as well as a 4010 blower fan for part cooling. It is mounted on a mgn9h rail, as a balance between rigidity and size. I am running a bowden system for this toolhead, as the cantilever design means that having a heavy toolhead will lead to slop and issues. My belt mounting system is fairly simple, just a slot on the back of the toolhead which allows both sides of the belt to connect and move the toolhead around. I dont have much experience designing toolheads, so this is just the way I am thinking through it. 
 
@@ -77,7 +77,7 @@ Here is the current state of the toolhead design. Im not super happy with how it
 
 **Time Spent: 4h**
 
-# Final Motion Components
+# Final Motion Components 7/30/25
 
 In this session I added the X Idler and the extruder to the printer. For the idler, I mounted it directly to the rail, which helps align it to the belt path. I am using a 20t idler for this, as it matches the pulley on the other side. This is important because I want equal force pulling on each side of the toolhead. For the extruder, I chose an HGX Lite. This is a clone of the very popular LGX lite, using big gears for high grip and an aluminum body for rigidity. I mounted this to the X/Z carriage, as letting it move with the toolhead means less strain on the bowden. 
 
@@ -91,7 +91,7 @@ And here is the X idler. Its pretty simple and compact as I wanted to keep the w
 
 **Time Spent: 3h**
 
-# Final Touches
+# Final Touches 7/31/25
 
 This entry is going to be pretty short because there isnt much I can actually write about. I made the BOM, and it comes out to a little more than 350 dollars. Im planning on covering all the extra costs (~30 dollars). I added a limit switch for the Z axis, as homing it sensorless wouldnt be very accurate. I plan to use sensorless for the Rho though. I also documented the whole printer, writing a readme and putting some polish on some weird parts. Figuring out how MISUMI labels their frames is very annoying, so I spent a long time on that. I think I got everything correct. 
 
