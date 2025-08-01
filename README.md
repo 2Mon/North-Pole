@@ -40,6 +40,12 @@ Bed System
 
 Toolhead System
 
+
+<img width="1350" height="972" alt="image" src="https://github.com/user-attachments/assets/b8f81c3a-ad2e-4415-bb95-c2a103417c6d" />
+
+WIRING DIAGRAM
+
+
 # BOM
 
 | Item Name                 | Price  | Quantity | Total Price | Link                                                                                                                   |
