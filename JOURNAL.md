@@ -51,7 +51,7 @@ I woke up and realized how bad the x (rho) axis motor mount is so I spent some t
 
 <img width="855" height="479" alt="image" src="https://github.com/user-attachments/assets/fcae2c07-6cc9-4420-97b8-dfc7eca486cb" />
 
-I also realized that it is going to be very difficult to tension the bed pulley well, so I added a slider to let the motor and pulley move further away from the bed, tensioning the belt loop. I also added the bed pulley, which is a commonly available 80t gt2 pulley. Its press fit into a large bed spinner, which will end up being the print surface. I plan to use kapton tape to get parts to stick to the bed, as it is cheap and holds onto PLA fairly well. This greatly simplifies wiring this printer, as I dont need to worry about any sliprings or expensive components for the heated bed. I was inspired by Kappy by rolohaun for this, as it is a primary feature the low cost bedslinger. 
+I also realized that it is going to be very difficult to tension the bed pulley well, so I added a slider to let the motor and pulley move further away from the bed, tensioning the belt loop. I also added the bed pulley, which is a commonly available 80t gt2 pulley. Its press fit into a large bed spinner, which will end up being the print surface. I plan to use kapton tape to get parts to stick to the bed, as it is cheap and holds onto PLA fairly well. This greatly simplifies wiring this printer, as I dont need to worry about any sliprings or expensive components for the heated bed. I was inspired by Kappy by rolohaun for this, as it is a primary feature of the low cost bedslinger. 
 
 <img width="514" height="374" alt="image" src="https://github.com/user-attachments/assets/32eec2a2-932f-411b-8627-babfe0069f3d" />
 
